@@ -7,7 +7,7 @@ setInterval(()=>{
 	  })
 	 makeCurrent(getImage(n+1))
 	 n+=1
-},3000)
+},2000)
 
 function getImage(n){
 	return $(`.images > img:nth-child(${x(n)})`)
