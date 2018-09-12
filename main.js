@@ -13,6 +13,7 @@ document.addEventListener('visibilitychange',function(e){
   console.log(document.hidden)
   if(document.hidden){
     window.clearInterval(timer)
+    console.log(a)
   }else{
     timer = setInterval(()=>{
 	makeLeave(getImage(n))
