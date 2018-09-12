@@ -10,6 +10,7 @@ let timer = setInterval(()=>{
 },2000)
 
 document.addEventListener('visibilitychange',function(e){
+  console.log(document.hidden)
   if(document.hidden){
     window.clearInterval(timer)
   }else{
